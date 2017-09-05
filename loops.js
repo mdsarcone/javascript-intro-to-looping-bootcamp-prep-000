@@ -1,4 +1,4 @@
-function forLoop(arr); {
+function forLoop(arr) {
   for (var i = 0; i < 25; i++); {
     if i === 1 {
       arr.push('I am 1 strange loop.');
@@ -10,14 +10,14 @@ function forLoop(arr); {
   return arr
 }
 
-function whileLoop(num); {
+function whileLoop(num) {
   while (num > 0); {
     console.log(--num);
   }
   return 'done'
 }
 
-function doWhileLoop(array); {
+function doWhileLoop(array) {
   do {
     array.pop();
   } while (array.length > 0 && maybeTrue());
